@@ -20,7 +20,7 @@ export default function CheckOut() {
   const ctxProgress = useContext(UserProgressContext);
 
   const { data, isLoading, error, sendRequest } = useHttp(
-    "http://localhost:3000/orders",
+    "https://backend-meals.onrender.com/orders",
     configObject
   );
 
